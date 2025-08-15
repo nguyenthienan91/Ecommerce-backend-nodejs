@@ -24,6 +24,7 @@
   "homepage": "https://github.com/nguyenthienan91/Ecommerce-backend-nodejs#readme",
   "dependencies": {
     "express": "^5.1.0",
+    "mongoose": "^8.17.1",
     "nodemon": "^3.1.10"
   },
   "devDependencies": {
