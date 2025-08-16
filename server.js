@@ -1,5 +1,5 @@
 const app = require("./src/app");
-const PORT = 3000;
+const PORT = process.env.PORT || 3056
 const server = app.listen(PORT, () => {
   console.log(`PixelSmith server start with port ${PORT}`);
 });
